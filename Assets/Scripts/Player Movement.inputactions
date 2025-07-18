@@ -14,6 +14,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "e39c6252-7659-4ca2-b0be-3b1a7c1a0bff",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -71,6 +80,45 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "c85df3be-529d-4591-be04-e387dd919992",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Debug",
+            "id": "3499ac7c-5d19-4924-82c4-de38d2f8eb80",
+            "actions": [
+                {
+                    "name": "TestDamage",
+                    "type": "Button",
+                    "id": "2e91f2ac-3b7f-41b4-a309-f298cfb000a5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3bbd60b4-ff1c-4e06-a49b-07fdc7ed694e",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TestDamage",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

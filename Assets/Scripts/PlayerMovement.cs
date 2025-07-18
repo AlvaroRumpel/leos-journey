@@ -45,11 +45,11 @@ public class PlayerMovement : MonoBehaviour
                 return;
             }
 
-            animator.SetInteger("Direction",movement.x > 0 ? (int)Direction.Left : (int)Direction.Right);
+            animator.SetInteger("Direction",movement.x > 0 ? (int)Direction.Right : (int)Direction.Left);
             return;
         }
 
-        animator.SetInteger("Direction", (int)Direction.Left);
+        animator.SetInteger("Direction", (int)Direction.Right);
     }
 }
 
